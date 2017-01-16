@@ -1,0 +1,107 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "base-x@^2.0.1",
+        "scope": null,
+        "escapedName": "base-x",
+        "name": "base-x",
+        "rawSpec": "^2.0.1",
+        "spec": ">=2.0.1 <3.0.0",
+        "type": "range"
+      },
+      "D:\\TangChain_fe\\node_modules\\bs58"
+    ]
+  ],
+  "_from": "base-x@>=2.0.1 <3.0.0",
+  "_id": "base-x@2.0.2",
+  "_inCache": true,
+  "_location": "/base-x",
+  "_nodeVersion": "7.2.1",
+  "_npmOperationalInternal": {
+    "host": "packages-18-east.internal.npmjs.com",
+    "tmp": "tmp/base-x-2.0.2.tgz_1482025947472_0.7156734189484268"
+  },
+  "_npmUser": {
+    "name": "dcousens",
+    "email": "email@dcousens.com"
+  },
+  "_npmVersion": "4.0.5",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "base-x@^2.0.1",
+    "scope": null,
+    "escapedName": "base-x",
+    "name": "base-x",
+    "rawSpec": "^2.0.1",
+    "spec": ">=2.0.1 <3.0.0",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "/bs58"
+  ],
+  "_resolved": "https://registry.npmjs.org/base-x/-/base-x-2.0.2.tgz",
+  "_shasum": "73aa8721de2e331e1d2f6a001723e22cb650c92b",
+  "_shrinkwrap": null,
+  "_spec": "base-x@^2.0.1",
+  "_where": "D:\\TangChain_fe\\node_modules\\bs58",
+  "author": {
+    "name": "Daniel Cousens"
+  },
+  "bugs": {
+    "url": "https://github.com/cryptocoinjs/base-x/issues"
+  },
+  "dependencies": {},
+  "description": "Fast base encoding / decoding of any given alphabet",
+  "devDependencies": {
+    "standard": "^6.0.8",
+    "tape": "^4.5.1"
+  },
+  "directories": {},
+  "dist": {
+    "shasum": "73aa8721de2e331e1d2f6a001723e22cb650c92b",
+    "tarball": "https://registry.npmjs.org/base-x/-/base-x-2.0.2.tgz"
+  },
+  "files": [
+    "index.js"
+  ],
+  "gitHead": "58716e21f7fd0d8b6fe4540b9d6afb7d9f799a4b",
+  "homepage": "https://github.com/cryptocoinjs/base-x",
+  "keywords": [
+    "base-x",
+    "base58",
+    "base62",
+    "base64",
+    "crypto",
+    "crytography",
+    "decode",
+    "decoding",
+    "encode",
+    "encoding"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "maintainers": [
+    {
+      "name": "dcousens",
+      "email": "email@dcousens.com"
+    },
+    {
+      "name": "jprichardson",
+      "email": "jprichardson@gmail.com"
+    }
+  ],
+  "name": "base-x",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cryptocoinjs/base-x.git"
+  },
+  "scripts": {
+    "standard": "standard",
+    "test": "npm run unit && npm run standard",
+    "unit": "tape test/*.js"
+  },
+  "version": "2.0.2"
+}
